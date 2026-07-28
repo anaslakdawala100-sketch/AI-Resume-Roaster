@@ -1,0 +1,23 @@
+{
+  "name": "finlaticswebdev_project2",
+  "version": "1.0.0",
+  "description": "Demo package.json for the project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "formidable": "^3.5.4",
+    "jspdf": "^4.2.1",
+    "pdf-parse": "^1.1.1",
+    "prisma": "^6.19.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^3.4.19"
+  }
+}
