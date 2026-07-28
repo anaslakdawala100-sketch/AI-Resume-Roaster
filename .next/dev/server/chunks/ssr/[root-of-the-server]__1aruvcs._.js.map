@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Downloads/FINALITICS/finlaticswebdev_project2-main/pages/index.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-slate-950 text-white flex items-center justify-center px-6\">\n      <div className=\"text-center max-w-3xl\">\n\n        <h1 className=\"text-5xl font-bold text-cyan-400 mb-6\">\n          AI Resume Roaster\n        </h1>\n\n        <p className=\"text-xl text-slate-300 mb-8\">\n          Upload your resume and receive an AI-powered review with\n          a resume score, strengths, weaknesses, and personalized\n          improvement suggestions.\n        </p>\n\n        <Link\n          href=\"/upload\"\n          className=\"bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-xl font-semibold text-white transition\"\n        >\n          Get Started\n        </Link>\n\n      </div>\n    </div>\n  );\n}"],"names":["Home","className","href"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBACE,qKAAC;QAAIC,WAAU;kBACb,cAAA,qKAAC;YAAIA,WAAU;;8BAEb,qKAAC;oBAAGA,WAAU;8BAAwC;;;;;;8BAItD,qKAAC;oBAAEA,WAAU;8BAA8B;;;;;;8BAM3C,qKAAC,gIAAI;oBACHC,MAAK;oBACLD,WAAU;8BACX;;;;;;;;;;;;;;;;;AAOT"}}]
-}

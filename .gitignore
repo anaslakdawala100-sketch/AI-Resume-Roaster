@@ -6,3 +6,4 @@ uploads/
 
 coverage/
 dist/
+package-lock.json
