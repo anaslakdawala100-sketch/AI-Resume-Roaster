@@ -4,16 +4,16 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url = env("DATABASE_URL")
 }
 
 model ResumeAnalysis {
-  id               String   @id @default(cuid())
-  fileName         String
-  score            Int
-  strengths        Json
-  weaknesses       Json
-  suggestions      Json
-  overallFeedback  String
-  createdAt        DateTime @default(now())
+  id              String   @id @default(cuid())
+  fileName        String
+  score           Int
+  strengths       Json
+  weaknesses      Json
+  suggestions     Json
+  overallFeedback String
+  createdAt       DateTime @default(now())
 }
