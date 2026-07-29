@@ -1,9 +1,5 @@
-node_modules/
-.next/
+node_modules
+.next
 .env
 .env.local
-uploads/
-
-coverage/
-dist/
-package-lock.json
+uploads
